@@ -7,7 +7,8 @@
     "start": "node ./bin/www"
   },
   "napa": {
-    "folium": "git+https://github.com/python-visualization/folium.git"
+    "folium": "git+https://github.com/python-visualization/folium.git",
+    "leaflet-timedimension": "git+https://github.com/IntificHermes/Leaflet.TimeDimension.git"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.2.0",
@@ -20,7 +21,6 @@
     "http-errors": "~1.6.2",
     "jquery": "^3.3.1",
     "leaflet": "^1.3.4",
-    "leaflet-timedimension": "^1.1.0",
     "leaflet.awesome-markers": "^2.0.4",
     "morgan": "~1.9.0",
     "pug": "2.0.0-beta11"
